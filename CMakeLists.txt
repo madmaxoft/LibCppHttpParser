@@ -1,5 +1,5 @@
 
-project (LibCppHttpParser)
+project (LibCppHttpParser LANGUAGES CXX)
 
 set(LIBSOURCES
 	src/EnvelopeParser.cpp
