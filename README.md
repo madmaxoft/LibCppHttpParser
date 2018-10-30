@@ -68,7 +68,7 @@ while (true)
 // Example 2: Asynchronous IO:
 auto handler = [&parser, &socket](const char * aData, size_t aSize)
 {
-	if (parser.parse(aData, a_Size) == std::string::npos)
+	if (parser.parse(aData, aSize) == std::string::npos)
 	{
 		// Bad incoming data
 		socket.close();
