@@ -10,6 +10,7 @@ Usage
 To use the library, use CMake to include the top-level CMakeLists.txt, then add the library to your own executable. The top-level CMakeLists defines two flavors of the library:
   - `LibCppHttpParser`: shared library
   - `LibCppHttpParser-static`: static library
+
 Choose whichever version better suits your application needs.
 
 Runtime usage is then as follows:
